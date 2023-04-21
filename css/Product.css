@@ -43,3 +43,7 @@
     order: 0;
     flex-grow: 0;
 }
+
+.Navigation-Menu{
+    border-bottom: solid 1px black;
+}
