@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#Container {
+    position: relative;
+    width: 1440px;
+    height: 2299px;
+
+    background: #F0F5F0;
+}
