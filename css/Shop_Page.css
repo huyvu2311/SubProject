@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+li{
+    list-style-type: none;
+}
 
 font {
     font-family: 'Open Sans';
@@ -24,38 +27,6 @@ font {
     ;
 }
 
-.Mini-Header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    background-color: #01370C;
-    color: #F0EAD2;
-}
-
-.Top-Bar-Content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 0px;
-    gap: 12px;
-    width: 1200px;
-    height: 40px;
-}
-
-.Cart-AccountIcons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 56px;
-    width: 104px;
-    height: 32px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
 
 .North {
     width: 1440px;
@@ -64,57 +35,6 @@ font {
     flex-direction: column;
 }
 
-.Navigation-Menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 0px 10px 0px;
-}
-
-.Nav-Bar {
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    align-items: center;
-}
-
-.Menu-Items {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-    gap: 56px;
-
-    width: 688px;
-    height: 56px;
-}
-
-.Menu-Items div {
-    display: flex;
-    justify-content: space-around;
-    gap: 15px;
-    cursor: pointer;
-}
-
-.Search-Bar {
-    position: relative;
-}
-
-.fa-magnifying-glass {
-    position: absolute;
-    left: 13px;
-    top: 11px;
-    color: rgba(52, 52, 52, 0.5);
-}
-
-.Box-Search {
-    width: 203px;
-    height: 40px;
-    border: 2px solid #343434;
-    border-radius: 6px;
-    color: black;
-}
 
 .Center {
     display: flex;
@@ -155,6 +75,8 @@ font {
 .indoor {
     display: flex;
     gap: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .Indoor-plants {
@@ -162,6 +84,7 @@ font {
     flex-direction: column;
     gap: 20px;
     width: 190px;
+    margin-left: 40px;
 }
 
 .tree {
@@ -283,15 +206,16 @@ p {
 }
 
 .filter-side-bar2 {
+    padding-top: 5px;
     height: 187px;
     row-gap: 20px;
-    padding: 20px 0px 10px 0px;
+    
 }
 
 .filter-side-bar2>div {
     display: flex;
     gap: 15px;
-    align-items: center;
+    height: 35px;
     margin-left: 18px;
     padding: 6px;
 }
@@ -325,87 +249,4 @@ button {
     gap: 10px;
     height: 306px;
     background: #436E35;
-}
-
-.Footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 71px;
-
-    width: 1200px;
-    height: 200px;
-}
-
-.logo-link {
-    display: flex;
-    justify-content: space-around;
-    gap: 70px;
-    color: #ffff;
-}
-
-h4 {
-    white-space: nowrap;
-}
-
-p {
-    white-space: nowrap;
-}
-
-ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 10px;
-}
-
-.Legal {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: space-evenly;
-}
-
-.Quick-links {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-}
-
-.Support {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.Copyright-social {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 50px;
-    text-align: right;
-}
-.Social{
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-}
-.mini-footer {
-    display: flex;
-    width: 1440px;
-    height: 57px;
-    background: #01370C;
-    align-items: center;
-    justify-content: center;
-}
-
-.content-footer {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    color: rgba(255, 255, 255, 1);
 }

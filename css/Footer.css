@@ -1,0 +1,83 @@
+
+.Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 71px;
+
+    width: 1200px;
+    height: 200px;
+}
+
+.logo-link {
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    color: #ffff;
+}
+
+h4 {
+    white-space: nowrap;
+}
+
+p {
+    white-space: nowrap;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.Legal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.Quick-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.Support {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Copyright-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    text-align: right;
+}
+.Social{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.mini-footer {
+    display: flex;
+    width: 1440px;
+    height: 57px;
+    background: #01370C;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-footer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
