@@ -13,16 +13,31 @@ body {
   font-size: 16px;
 }
 
-
 .Mini-menu {
   background-color: #01370c;
 }
 .fontAwesome {
-  font-family: Helvetica, 'FontAwesome', sans-serif;
+  font-family: Helvetica, "FontAwesome", sans-serif;
 }
-#box-search{
+#box-search {
   height: 35px;
 }
-.Navigation-Bar a{
+.Navigation-Bar a {
   color: black;
+}
+
+.main {
+  background: url(../img/Hero\ Banner.png) no-repeat;
+  background-size: cover;
+  height: 45vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.row {
+  margin: 0 50px;
 }
