@@ -23,3 +23,6 @@ body {
 #box-search{
     height: 35px;
 }
+.Navigation-Bar a{
+    color: black;
+}
