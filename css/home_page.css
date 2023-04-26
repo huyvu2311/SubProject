@@ -4,6 +4,7 @@
 }
 
 @import url("https://fonts.google.com/specimen/Open+Sans?query=Open+Sans");
+@import url("https://fonts.google.com/specimen/Unna?query=Unna");
 
 html,
 body {
@@ -11,6 +12,7 @@ body {
   height: 100%;
   font-family: "Open Sans";
   font-size: 16px;
+  background-color: #e5e5e5;
 }
 
 .Mini-menu {
@@ -40,4 +42,39 @@ body {
 
 .row {
   margin: 0 50px;
+}
+
+h3 {
+  font-size: 48px;
+  font-family: "Unna";
+  width: 250px;
+  height: 70px;
+  border-bottom: 2px solid #343434;
+}
+
+.shop_now {
+  width: 328px;
+  height: 64px;
+
+  background: #3b823e;
+  box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13);
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.card_group .card {
+  background-color: #ffffff;
+}
+
+.card {
+  background-color: #e5e5e5;
+}
+
+.card-body button {
+  border: none;
+}
+
+.card_group .card img {
+  height: 344px;
+  width: 318px;
 }
