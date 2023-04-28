@@ -74,7 +74,7 @@ hr {
 }
 
 .row .card {
-  border-radius: 30px;
+  border-radius: 16px;
 }
 
 .plant_price {
@@ -86,3 +86,32 @@ hr {
 .plant_name {
   font-size: 20px;
 }
+
+.img_1 {
+  background: linear-gradient(
+      0deg,
+      rgba(80, 107, 82, 0.25),
+      rgba(80, 107, 82, 0.25)
+    ),
+    url(../img/Blog\ Card\ 1.png);
+  background-position: center;
+  background-size: cover;
+  width: 588px;
+  height: 286px;
+  border-radius: 16px;
+}
+
+.img_2 {
+  background: linear-gradient(
+      0deg,
+      rgba(80, 107, 82, 0.25),
+      rgba(80, 107, 82, 0.25)
+    ),
+    url(../img/Blog\ Card\ 2.png);
+  background-position: center;
+  background-size: cover;
+  width: 588px;
+  height: 286px;
+  border-radius: 16px;
+}
+
