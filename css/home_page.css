@@ -72,3 +72,17 @@ hr {
 .container-fluid {
   margin: 120px 0px;
 }
+
+.row .card {
+  border-radius: 30px;
+}
+
+.plant_price {
+  width: 226px;
+  height: 27px;
+  font-size: 20px;
+}
+
+.plant_name {
+  font-size: 20px;
+}
