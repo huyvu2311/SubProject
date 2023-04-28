@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div id="Container" class="container-fluid d-flex flex-column justify-content-center">
         <div class="Mini-menu">
             <nav class="navbar navbar-expand-sm justify-content-around text-center p-0">
                 <ul class="navbar-nav">
@@ -78,6 +78,234 @@
                     </li>
                 </ul>
             </nav>
+        </div>
+        <div class="Cart-Items d-flex justify-content-center flex-column align-items-center">
+            <div class="Box-Cart-item w-75">
+                <h1 class="title-Item d-flex justify-content-center">Your Cart Items</h1>
+                <table class="table border-bottom">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>
+                                <div class="product d-flex">
+                                    <img src="../img/Frame 65-0.png" alt="">
+                                    <div class="d-flex flex-column">
+                                        <h2>Plant Name</h2>
+                                        <p class="font-weight-lighter">Remove</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <th class="font-weight-normal">$99</th>
+                            <th>
+                                <div
+                                    class="box-Quantity border border-dark rounded-lg d-flex justify-content-around align-items-center font-weight-lighter">
+                                    <button>+</button> 1 <button>-</button>
+                                </div>
+                            </th>
+                            <th class="font-weight-lighter">$99</th>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th>
+                                <div class="product d-flex">
+                                    <img src="../img/Frame 65 (7).png" alt="">
+                                    <div class="d-flex flex-column">
+                                        <h2>Plant Name</h2>
+                                        <p class="font-weight-lighter">Remove</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <th class="font-weight-normal">$99</th>
+                            <th>
+                                <div
+                                    class="box-Quantity border border-dark rounded-lg d-flex justify-content-around align-items-center font-weight-lighter">
+                                    <button>+</button> 1 <button>-</button>
+                                </div>
+                            </th>
+                            <th class="font-weight-normal">$99</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="Total w-25 d-flex flex-column justify-content-around ">
+                    <div class="border-bottom float-right">
+                        <div class="d-flex justify-content-between">
+                            <div>Subtotal</div>
+                            <div>$ 99.0</div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div>Shipping</div>
+                            <div>Float Rate</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>Total</div>
+                        <div>Shipping</div>
+                    </div>
+                </div>
+            </div>
+            <div class="Login d-flex w-75 align-items-center p-4">
+                <span>Returning customers ?</span>
+                <a href="#">Click Here to Login</a>
+            </div>
+        </div>
+        <div class="Billing-Details d-flex justify-content-center">
+            <div class="w-75 d-flex justify-content-between">
+                <div class="Form-infomation mf-3">
+                    <h3>Biling Details</h3>
+                    <form class="d-flex" action="">
+                        <div class="form-group">
+                            <label for="input">Fist Name*</label>
+                            <input placeholder="Amit" class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="input">Last Name*</label>
+                            <input placeholder="Kini" class="form-control" type="text">
+                        </div>
+                    </form>
+                    <form class="d-flex" action="">
+                        <div class="form-group">
+                            <label for="input">Phone*</label>
+                            <input placeholder="+91 905965XXXX" class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="input">Email Address*</label>
+                            <input placeholder="amit.kiniab@gmail.com" class="form-control" type="text">
+                        </div>
+                    </form>
+                    <form class="Street-Address" action="">
+                        <label for="Adress">Street Address*</label>
+                        <input id="Adress" class="form-control mb-2" placeholder="House No./ Apartment No./ Plot No."
+                            type="text">
+                        <input type="text" class="form-control" placeholder="Street Name/ Locality" name=""
+                            id="Address">
+                    </form>
+                    <form class="d-flex" action="">
+                        <div class="form-group">
+                            <label for="input">City*</label>
+                            <input placeholder="Hyderabad" class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="input">State*</label>
+                            <input placeholder="Telangana" class="form-control" type="text">
+                        </div>
+                    </form>
+                    <form class="d-flex" action="">
+                        <div class="form-group">
+                            <label for="input">Pincode*</label>
+                            <input placeholder="5000XX" class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="input">Country*</label>
+                            <input placeholder="India" class="form-control" type="text">
+                        </div>
+                    </form>
+                    <h3>Billing Details</h3>
+                    <input type="checkbox" name="" id="Pay">
+                    <label for="Pay">Pay to <img src="../img/blue 1.png" alt=""> Cards, NetBanking, Wallet & UPI</label>
+
+                </div>
+                <div class="Address d-flex flex-column justify-content-between">
+                    <div>
+                        <input type="checkbox" name="" id="Different-address">
+                        <label class="pl-3" for="Different-address">
+                            <h4>Ship to Different Address</h4>
+                        </label>
+                        <form class="Street-Address" action="">
+                            <label for="Adress">Order notes (Optional)</label>
+                            <input id="Adress" class="form-control mb-2" placeholder="Order notes (Optional)"
+                                type="text">
+                        </form>
+                    </div>
+                    <button class="Place-Order float-right">
+                        Place Order
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="Footer d-flex justify-content-between">
+            <div><img src="../img/PAP Logo 1.png" alt=""></div>
+            <div>
+                <h5>Quick Links</h5>
+                <nav class="navbar navbar-expand-sm">
+                    <ul class="navbar-nav d-flex flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bulk Order</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gifts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Organic Garden</a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div>
+                <h5>Legal</h5>
+                <nav class="navbar navbar-expand-sm">
+                    <ul class="navbar-nav d-flex flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">T&C</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Returns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shipping</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cancellation</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h5>Suport</h5>
+                <nav class="navbar navbar-expand-sm ">
+                    <ul class="navbar-nav d-flex flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div></div>
+                <div></div>
+            </div>
+            <div>
+                <img src="../img/Compant Badge.png" alt="">
+            </div>
+            <div class="d-flex flex-column justify-content-around">
+                <img src="../img/© 2021 Plan A Plant All Rights Reserved.png" alt="">
+                <div>
+                    <a href="#"><img src="../img/Facebook.png" alt=""></a>
+                    <a href="#"><img src="../img/Twitter.png" alt=""></a>
+                    <a href="#"><img src="../img/Frame 50.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="Mini-footer text-center">
+            We facilitate your payments through trusted gateways
+            <img src="../img/Frame 56 (1).png" alt=""><img src="../img/Group.png" alt=""><img
+                src="../img/Frame 55 (1).png" alt=""><img src="../img/RuPay Logo 1 (1).png" alt="">
         </div>
     </div>
 </body>
