@@ -116,3 +116,11 @@ hr {
   padding-top: 45px;
   font-size: 28px;
 }
+
+.plant_price_sale {
+  width: 41px;
+  height: 22px;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: #d11f1f;
+}
