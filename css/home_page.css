@@ -69,6 +69,15 @@ hr {
   margin-left: 750px;
 }
 
+.hero .selling h3::after {
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: red;
+  margin: auto;
+}
+
 .container-fluid {
   margin: 120px 0px;
 }
@@ -123,4 +132,15 @@ hr {
   text-align: center;
   text-decoration-line: line-through;
   color: #d11f1f;
+}
+
+#landscapegardening hr {
+  width: 200px;
+  height: 0;
+  border: 1px solid rgba(52, 52, 52, 0.8);
+  margin: 0 0 15px 0;
+}
+
+.text {
+  font-size: 24px;
 }
