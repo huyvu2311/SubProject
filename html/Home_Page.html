@@ -16,623 +16,735 @@
     />
   </head>
   <body>
-    <!-- Navigation -->
-    <div class="Mini-menu">
-      <nav
-        class="navbar navbar-expand-sm justify-content-around text-center p-0"
+    <!-- Header -->
+    <header>
+      <div class="Mini-menu">
+        <nav
+          class="navbar navbar-expand-sm justify-content-around text-center p-0"
+        >
+          <ul class="navbar-nav"></ul>
+          <ul class="navbar-nav">
+            <li class="nav-item d-flex align-items-center text-white">
+              Use code FIRST50 for a 50% discount on your first order!
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link mr-3 text-white" href="#"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"
+                ><i class="fa-solid fa-circle-user"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div
+        class="Navigation-Bar border-top border-dark p-2 border-bottom border-dark"
       >
-        <ul class="navbar-nav"></ul>
-        <ul class="navbar-nav">
-          <li class="nav-item d-flex align-items-center text-white">
-            Use code FIRST50 for a 50% discount on your first order!
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link mr-3 text-white" href="#"
-              ><i class="fa-solid fa-cart-shopping"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#"
-              ><i class="fa-solid fa-circle-user"></i
-            ></a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div
-      class="Navigation-Bar border-top border-dark p-2 border-bottom border-dark"
-    >
-      <nav class="navbar-expand-sm justify-content-around d-flex">
-        <ul class="navbar-nav">
-          <img src="../img/PAP Logo.png" alt="" />
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item d-flex align-items-center">
-            <a href="#">Home</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item d-flex align-items-center">
-            <a href="#">Plants</a>
-            <button
-              type="button"
-              class="btn dropdown-toggle"
-              data-toggle="dropdown"
-            ></button>
-          </li>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
+        <nav class="navbar-expand-sm justify-content-around d-flex">
+          <ul class="navbar-nav">
+            <img src="../img/PAP Logo.png" alt="" />
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item d-flex align-items-center">
+              <a href="#">Home</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item d-flex align-items-center">
+              <a href="#">Plants</a>
+              <button
+                type="button"
+                class="btn dropdown-toggle"
+                data-toggle="dropdown"
+              ></button>
+            </li>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item d-flex align-items-center">
+              <a href="#">Planters</a>
+              <button
+                type="button"
+                class="btn dropdown-toggle"
+                data-toggle="dropdown"
+              ></button>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item d-flex align-items-center">
+              <a href="#">Essential</a>
+              <button
+                type="button"
+                class="btn dropdown-toggle"
+                data-toggle="dropdown"
+              ></button>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item d-flex align-items-center">
+              <a href="#">Sevices</a>
+              <button
+                type="button"
+                class="btn dropdown-toggle"
+                data-toggle="dropdown"
+              ></button>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-item d-flex align-items-center">
+            <li class="nav-item">
+              <input
+                id="box-search"
+                class="fontAwesome rounded-lg"
+                type="text"
+                placeholder="  &#xf002;      Search"
+              />
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <section class="main"></section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md- ml-auto">
+            <u style="color: #3b823e">See all</u>
+            <i class="fa-solid fa-arrow-right"></i>
           </div>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item d-flex align-items-center">
-            <a href="#">Planters</a>
-            <button
-              type="button"
-              class="btn dropdown-toggle"
-              data-toggle="dropdown"
-            ></button>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item d-flex align-items-center">
-            <a href="#">Essential</a>
-            <button
-              type="button"
-              class="btn dropdown-toggle"
-              data-toggle="dropdown"
-            ></button>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item d-flex align-items-center">
-            <a href="#">Sevices</a>
-            <button
-              type="button"
-              class="btn dropdown-toggle"
-              data-toggle="dropdown"
-            ></button>
-          </li>
-        </ul>
-        <ul class="navbar-nav nav-item d-flex align-items-center">
-          <li class="nav-item">
-            <input
-              id="box-search"
-              class="fontAwesome rounded-lg"
-              type="text"
-              placeholder="  &#xf002;      Search"
+        </div>
+        <div class="row">
+          <div class="col-lg-2 text-center">
+            <div class="card border-0 mb-1">
+              <div class="card-body">
+                <img src="../img/Rectangle 51.png" alt="" />
+              </div>
+            </div>
+            <h5 class="font-weight-bold">BONSAI</h5>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-0 mb-1">
+              <div class="card-body">
+                <img src="../img/Rectangle 51 -1.png" alt="" />
+              </div>
+            </div>
+            <h5 class="font-weight-bold">CACTUS</h5>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-0 mb-1">
+              <div class="card-body">
+                <img src="../img/Rectangle 51-3.png" alt="" />
+              </div>
+            </div>
+            <h5 class="font-weight-bold">CREEPERS</h5>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-0 mb-1">
+              <div class="card-body">
+                <img src="../img/Rectangle 51-4.png" alt="" />
+              </div>
+            </div>
+            <h5 class="font-weight-bold">SUCCULENTS</h5>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-0 mb-1">
+              <div class="card-body">
+                <img src="../img/Rectangle 51-5.png" alt="" />
+              </div>
+            </div>
+            <h5 class="font-weight-bold">SEEDS</h5>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="card border-0 mb-1">
+              <div class="card-body">
+                <img src="../img/Rectangle 51-6.png" alt="" />
+              </div>
+            </div>
+            <h5 class="font-weight-bold">GIFTING</h5>
+          </div>
+        </div>
+      </div>
+      <!-- Best Selling -->
+      <div class="container-fluid padding hero" id="bestselling">
+        <div class="row text-center selling">
+          <div class="col-12">
+            <h3 class="font-weight-bold">Best selling</h3>
+            <hr />
+          </div>
+        </div>
+        <div class="row padding">
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body">
+                <img src="../img/Frame 61.png" alt="" class="card-img-top" />
+                <p></p>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Shop now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body">
+                <img src="../img/Frame 61-1.png" alt="" class="card-img-top" />
+                <p></p>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Shop now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body">
+                <img src="../img/Frame 61-2.png" alt="" class="card-img-top" />
+                <p></p>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Shop now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Trending Plants -->
+      <div class="container-fluid padding hero" id="trendingplants">
+        <div class="row text-center selling">
+          <div class="col-12">
+            <h3 class="font-weight-bold">Trending Plants</h3>
+          </div>
+          <hr />
+        </div>
+        <div class="row m-lg-5 my-">
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img src="../img/Frame 65-0.png" alt="" class="card-img-top" />
+                <span class="card-text plant_name font-weight-bold"
+                  >Jade Terrarium</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img src="../img/Frame 65-1.png" alt="" class="card-img-top" />
+                <span class="card-text plant_name font-weight-bold"
+                  >Ficus Benjamina</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img src="../img/Frame 65-2.png" alt="" class="card-img-top" />
+                <span class="card-text plant_name font-weight-bold"
+                  >Syngorium Plant</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img src="../img/Frame 65.png" alt="" class="card-img-top" />
+                <span class="card-text plant_name font-weight-bold"
+                  >Cactus Peruvianus</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img
+                  src="../img/Frame 65 (1).png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <span class="card-text plant_name font-weight-bold"
+                  >Chlorophytum Lemon</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img
+                  src="../img/Frame 65 (2).png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <span class="card-text plant_name font-weight-bold"
+                  >Aloe Rauhii</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img
+                  src="../img/Frame 65 (3).png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <span class="card-text plant_name font-weight-bold"
+                  >Areca Palm</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img
+                  src="../img/Frame 65 (4).png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <span class="card-text plant_name font-weight-bold"
+                  >Sansevieria Black</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Blogs -->
+      <div class="container-fluid padding hero" id="blogs">
+        <div class="row text-center selling">
+          <div class="col-12">
+            <h3 class="font-weight-bold">Blogs</h3>
+          </div>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-around">
+            <div class="col-lg-4 img_1 text-center">
+              <div class="col-lg-12 text-light">
+                <span
+                  >8 Best <br />Low Maintenance Plants <br />For a Busy
+                  Home</span
+                >
+              </div>
+              <a
+                href="#"
+                class="btn btn-success shop_now"
+                style="padding: 8px 155px"
+                >Read</a
+              >
+            </div>
+            <div class="col-lg-4 img_2 text-center">
+              <div class="col-lg-12 text-light">
+                <span
+                  >8 Best <br />Low Maintenance Plants <br />For a Busy
+                  Home</span
+                >
+              </div>
+              <a
+                href="#"
+                class="btn btn-success shop_now"
+                style="padding: 8px 155px"
+                >Read</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hot Sale -->
+      <div class="container-fluid padding hero" id="hotsale">
+        <div class="row text-center selling">
+          <div class="col-12">
+            <h3 class="font-weight-bold">Hot Sale</h3>
+          </div>
+          <hr />
+        </div>
+        <div class="row m-lg-5 my-">
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img
+                  src="../img/Frame 65 (6).png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <span class="card-text plant_name font-weight-bold"
+                  >Adenium Plant</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <span class="plant_price_sale">$ 450</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img
+                  src="../img/Frame 65 (7).png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <span class="card-text plant_name font-weight-bold"
+                  >Ficus Twilight</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <span class="plant_price_sale">$ 450</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img
+                  src="../img/Frame 65 (8).png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <span class="card-text plant_name font-weight-bold"
+                  >Rhoeo Plant</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <span class="plant_price_sale">$ 450</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img
+                  src="../img/Frame 65 (9).png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <span class="card-text plant_name font-weight-bold"
+                  >Ctenanthe burle</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <span class="plant_price_sale">$ 450</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Planters -->
+      <div class="container-fluid padding hero" id="planters">
+        <div class="row text-center selling">
+          <div class="col-12">
+            <h3 class="font-weight-bold">Planters</h3>
+            <hr />
+          </div>
+        </div>
+        <div class="row m-lg-5 my-">
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img src="../img/Frame 66.png" alt="" class="card-img-top" />
+                <span class="card-text plant_name font-weight-bold"
+                  >Tale Pot</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <span class="plant_price_sale">$ 450</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img src="../img/Frame 66_1.png" alt="" class="card-img-top" />
+                <span class="card-text plant_name font-weight-bold"
+                  >Ice Cream Pot</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <span class="plant_price_sale">$ 450</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img src="../img/Frame 66_2.png" alt="" class="card-img-top" />
+                <span class="card-text plant_name font-weight-bold"
+                  >Beige Fracture</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <span class="plant_price_sale">$ 450</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card bg-light mb-4">
+              <div class="card-body">
+                <img src="../img/Frame 66_3.png" alt="" class="card-img-top" />
+                <span class="card-text plant_name font-weight-bold"
+                  >Mint Fusion</span
+                >
+                <br />
+                <span class="plant_price">$ 350</span>
+                <span class="plant_price_sale">$ 450</span>
+                <a
+                  href="#"
+                  class="shop_now btn btn-success d-flex justify-content-center"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Landscape Gardening -->
+      <div class="container-fluid padding" id="landscapegardening">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <h3 class="font-weight-bold">Landscape Gardening</h3>
+            <hr />
+            <div class="text">
+              <p class="">
+                Whether it is growing your own food or setting up your roof-top
+                garden, we provide the highest quality landscaping services,
+                contributing to a greener world and substantial living!
+              </p>
+              <p class="">Schedule your service appointment today!</p>
+              <p class="font-italic text-danger">
+                *Service only available in Telangana and AndhraPradesh.
+              </p>
+              <a href="" class="btn btn-success">Book Now!</a>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center"
+          >
+            <img
+              src="../img/Rectangle 58.png"
+              alt=""
+              class="rounded float-right"
             />
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <!-- Section -->
-    <section class="main"></section>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md- ml-auto">
-          <u style="color: #3b823e">See all</u>
-          <i class="fa-solid fa-arrow-right"></i>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-2 text-center">
-          <div class="card border-0 mb-1">
-            <div class="card-body">
-              <img src="../img/Rectangle 51.png" alt="" />
-            </div>
+      <!-- Celeb You Love, Love Us -->
+      <div class="container-fluid padding" id="celeb">
+        <div class="row text-center selling">
+          <div class="col-12">
+            <h3 class="font-weight-bold">Celebs You Love, Love Us</h3>
           </div>
-          <h5 class="font-weight-bold">BONSAI</h5>
-        </div>
-        <div class="col-lg-2 text-center">
-          <div class="card border-0 mb-1">
-            <div class="card-body">
-              <img src="../img/Rectangle 51 -1.png" alt="" />
-            </div>
-          </div>
-          <h5 class="font-weight-bold">CACTUS</h5>
-        </div>
-        <div class="col-lg-2 text-center">
-          <div class="card border-0 mb-1">
-            <div class="card-body">
-              <img src="../img/Rectangle 51-3.png" alt="" />
-            </div>
-          </div>
-          <h5 class="font-weight-bold">CREEPERS</h5>
-        </div>
-        <div class="col-lg-2 text-center">
-          <div class="card border-0 mb-1">
-            <div class="card-body">
-              <img src="../img/Rectangle 51-4.png" alt="" />
-            </div>
-          </div>
-          <h5 class="font-weight-bold">SUCCULENTS</h5>
-        </div>
-        <div class="col-lg-2 text-center">
-          <div class="card border-0 mb-1">
-            <div class="card-body">
-              <img src="../img/Rectangle 51-5.png" alt="" />
-            </div>
-          </div>
-          <h5 class="font-weight-bold">SEEDS</h5>
-        </div>
-        <div class="col-lg-2 text-center">
-          <div class="card border-0 mb-1">
-            <div class="card-body">
-              <img src="../img/Rectangle 51-6.png" alt="" />
-            </div>
-          </div>
-          <h5 class="font-weight-bold">GIFTING</h5>
-        </div>
-      </div>
-    </div>
-    <!-- Best Selling -->
-    <div class="container-fluid padding hero" id="bestselling">
-      <div class="row text-center selling">
-        <div class="col-12">
-          <h3 class="font-weight-bold">Best selling</h3>
           <hr />
         </div>
-      </div>
-      <div class="row padding">
-        <div class="col-md-4">
-          <div class="card bg-light">
-            <div class="card-body">
-              <img src="../img/Frame 61.png" alt="" class="card-img-top" />
-              <p></p>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Shop now</a
-              >
-            </div>
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <img src="../img/Frame 35.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <img src="../img/Frame 36.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <img src="../img/Frame 37.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <img src="../img/Frame 38.png" alt="" class="img-fluid" />
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card bg-light">
-            <div class="card-body">
-              <img src="../img/Frame 61-1.png" alt="" class="card-img-top" />
-              <p></p>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Shop now</a
-              >
-            </div>
+        <div class="row d-flex justify-content-between">
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <img src="../img/Frame 39.png" alt="" class="img-fluid" />
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card bg-light">
-            <div class="card-body">
-              <img src="../img/Frame 61-2.png" alt="" class="card-img-top" />
-              <p></p>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Shop now</a
-              >
-            </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <img src="../img/Frame 40.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <img src="../img/Frame  41.png" alt="" class="img-fluid" />
           </div>
         </div>
       </div>
-    </div>
-    <!-- Trending Plants -->
-    <div class="container-fluid padding hero" id="trendingplants">
-      <div class="row text-center selling">
-        <div class="col-12">
-          <h3 class="font-weight-bold">Trending Plants</h3>
-        </div>
-        <hr />
-      </div>
-      <div class="row m-lg-5 my-">
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65-0.png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Jade Terrarium</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
+    </main>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-2 col-md-6">
+              <img src="../img/PAP Logo 1.png" alt="" class="img-fluid" />
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65-1.png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Ficus Benjamina</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Quick Links</h4>
+              <ul>
+                <li>About Us</li>
+                <li>Bulk Order</li>
+                <li>Gifts</li>
+                <li>Organic Garden</li>
+              </ul>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65-2.png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Syngorium Plant</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Legal</h4>
+              <ul>
+                <li>T&C</li>
+                <li>Privacy Policy</li>
+                <li>Returns</li>
+                <li>Shipping</li>
+                <li>Cancellation</li>
+              </ul>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65.png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Cactus Peruvianus</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Support</h4>
+              <ul>
+                <li>FAQs</li>
+                <li>Contact Us</li>
+              </ul>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65 (1).png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Chlorophytum Lemon</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
+            <div class="col-lg-2 col-md-6 footer-links">
+              <img src="../img/Compant Badge.png" alt="" class="img-fluid" />
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65 (2).png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Aloe Rauhii</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65 (3).png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Areca Palm</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65 (4).png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Sansevieria Black</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
+            <div class="col-lg-2 col-md-6 footer-links">
+              <img
+                src="../img/© 2021 Plan A Plant All Rights Reserved.png"
+                alt=""
+                class="img-top"
+              />
+              <div class="mt-5">
+                <a href="#" class="facebook">
+                  <img src="../img/Facebook.png" alt="" />
+                </a>
+                <a href="#" class="twitter">
+                  <img src="../img/Twitter.png" alt="" />
+                </a>
+                <a href="#" class="instagram">
+                  <img src="../img/Frame 50.png" alt="" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Blogs -->
-    <div class="container-fluid padding hero" id="blogs">
-      <div class="row text-center selling">
-        <div class="col-12">
-          <h3 class="font-weight-bold">Blogs</h3>
-        </div>
-        <hr />
-      </div>
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-around">
-          <div class="col-lg-4 img_1 text-center">
-            <div class="col-lg-12 text-light">
-              <span
-                >8 Best <br />Low Maintenance Plants <br />For a Busy Home</span
-              >
-            </div>
-            <a
-              href="#"
-              class="btn btn-success shop_now"
-              style="padding: 8px 155px"
-              >Read</a
-            >
-          </div>
-          <div class="col-lg-4 img_2 text-center">
-            <div class="col-lg-12 text-light">
-              <span
-                >8 Best <br />Low Maintenance Plants <br />For a Busy Home</span
-              >
-            </div>
-            <a
-              href="#"
-              class="btn btn-success shop_now"
-              style="padding: 8px 155px"
-              >Read</a
-            >
+      <div class="footer-bot">
+        <div class="container d-flex justify-content-center">
+          <span class="text-light Copyright"
+            >We facilitate your payments through trusted gateways</span
+          >
+          <div class="my-auto">
+            <img src="../img/Frame 55.png" alt="" height="29px" />
+            <img src="../img/Frame 60.png" alt="" height="29px" />
+            <img src="../img/Frame 56.png" alt="" height="29px" />
+            <img src="../img/RuPay Logo 1.png" alt="" height="29px" />
           </div>
         </div>
       </div>
-    </div>
-    <!-- Hot Sale -->
-    <div class="container-fluid padding hero" id="hotsale">
-      <div class="row text-center selling">
-        <div class="col-12">
-          <h3 class="font-weight-bold">Hot Sale</h3>
-        </div>
-        <hr />
-      </div>
-      <div class="row m-lg-5 my-">
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65 (6).png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Adenium Plant</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <span class="plant_price_sale">$ 450</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65 (7).png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Ficus Twilight</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <span class="plant_price_sale">$ 450</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65 (8).png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Rhoeo Plant</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <span class="plant_price_sale">$ 450</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 65 (9).png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Ctenanthe burle</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <span class="plant_price_sale">$ 450</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Planters -->
-    <div class="container-fluid padding hero" id="planters">
-      <div class="row text-center selling">
-        <div class="col-12">
-          <h3 class="font-weight-bold">Planters</h3>
-          <hr />
-        </div>
-      </div>
-      <div class="row m-lg-5 my-">
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 66.png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Tale Pot</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <span class="plant_price_sale">$ 450</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 66_1.png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Ice Cream Pot</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <span class="plant_price_sale">$ 450</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 66_2.png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Beige Fracture</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <span class="plant_price_sale">$ 450</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <div class="card bg-light mb-4">
-            <div class="card-body">
-              <img src="../img/Frame 66_3.png" alt="" class="card-img-top" />
-              <span class="card-text plant_name font-weight-bold"
-                >Mint Fusion</span
-              >
-              <br />
-              <span class="plant_price">$ 350</span>
-              <span class="plant_price_sale">$ 450</span>
-              <a
-                href="#"
-                class="shop_now btn btn-success d-flex justify-content-center"
-                >Buy</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Landscape Gardening -->
-    <div class="container-fluid padding" id="landscapegardening">
-      <div class="row">
-        <div class="col-lg-6 order-1 order-lg-2">
-          <h3 class="font-weight-bold">Landscape Gardening</h3>
-          <hr />
-          <div class="text">
-            <p class="">
-              Whether it is growing your own food or setting up your roof-top
-              garden, we provide the highest quality landscaping services,
-              contributing to a greener world and substantial living!
-            </p>
-            <p class="">Schedule your service appointment today!</p>
-            <p class="font-italic text-danger">
-              *Service only available in Telangana and AndhraPradesh.
-            </p>
-            <a href="" class="btn btn-success">Book Now!</a>
-          </div>
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center">
-          <img
-            src="../img/Rectangle 58.png"
-            alt=""
-            class="rounded float-right"
-          />
-        </div>
-      </div>
-    </div>
-    <!-- Celeb You Love, Love Us -->
-    <div class="container-fluid padding" id="celeb">
-      <div class="row text-center selling">
-        <div class="col-12">
-          <h3 class="font-weight-bold">Celebs You Love, Love Us</h3>
-        </div>
-        <hr />
-      </div>
-      <div class="row">
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <img src="../img/Frame 35.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <img src="../img/Frame 36.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <img src="../img/Frame 37.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <img src="../img/Frame 38.png" alt="" class="img-fluid" />
-        </div>
-      </div>
-      <div class="row d-flex justify-content-between">
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <img src="../img/Frame 39.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <img src="../img/Frame 40.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <img src="../img/Frame  41.png" alt="" class="img-fluid" />
-        </div>
-      </div>
-    </div>
+    </footer>
   </body>
 </html>
