@@ -62,3 +62,52 @@ h3 {
   padding: 8px 50px;
   font-size: 20px;
 }
+
+#footer .footer-top {
+  background: #436e35;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+  font-style: bold;
+}
+
+#footer .footer-top ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.facebook,
+.twitter {
+  padding-right: 8px;
+}
+
+#footer .footer-bot {
+  background: #01370c;
+}
+
+#footer .container span {
+  font-size: 16px;
+  padding: 12px;
+}
+
+#footer .container-fluid {
+  margin: 0 -10px;
+}
+
+#footer .footer-bot img {
+  padding: 0 8px;
+}

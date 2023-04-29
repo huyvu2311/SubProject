@@ -189,3 +189,7 @@ hr {
 #footer .container-fluid {
   margin: 0 -10px;
 }
+
+#footer .footer-bot img {
+  padding: 0 8px;
+}
