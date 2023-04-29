@@ -96,9 +96,9 @@ hr {
     url(../img/Blog\ Card\ 1.png);
   background-position: center;
   background-size: cover;
-  width: 588px;
-  height: 286px;
   border-radius: 16px;
+  padding-top: 45px;
+  font-size: 28px;
 }
 
 .img_2 {
@@ -113,5 +113,6 @@ hr {
   width: 588px;
   height: 286px;
   border-radius: 16px;
+  padding-top: 45px;
+  font-size: 28px;
 }
-
