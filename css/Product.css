@@ -3,6 +3,19 @@
     padding: 0px;
 }
 
+@import url("https://fonts.google.com/specimen/Open+Sans?query=Open+Sans");
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.fontAwesome {
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+}
 
 #Container {
     position: relative;
@@ -12,13 +25,8 @@
     background: #F0F5F0;
 }
 
-.Mini-Header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    background-color: #01370C;
-    color: #F0EAD2;
+.Mini-menu {
+    background: #01370C;
 }
 
 .Top-Bar-Content {
@@ -55,22 +63,8 @@
 }
 
 .Box-Details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1440px;
-    height: 600px;
-}
-
-.Details {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 80px;
-    width: 1200px;
-    height: 553px;
+    gap: 20px;
+    padding: 50px 120px 50px 120px;
 }
 
 .Procducts-Images {
@@ -188,6 +182,8 @@
 .btn-Yes {
     border: 2px solid #343434;
     border-radius: 4px;
+    width: 76px;
+    height: 36px;
 }
 
 .btn-Add {
@@ -369,6 +365,7 @@ button:hover {
     gap: 64px;
     color: #F0F5F0;
 }
+
 .Copyright-social {
     display: flex;
     flex-direction: column;
@@ -376,10 +373,12 @@ button:hover {
     gap: 50px;
     text-align: right;
 }
-.Copyright-social :nth-child(2){
+
+.Copyright-social :nth-child(2) {
     display: flex;
     gap: 20px;
 }
+
 .mini-footer {
     display: flex;
     width: 1440px;

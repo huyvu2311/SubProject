@@ -58,9 +58,7 @@ body {
     height: 30px;
 }
 
-.Total {
-    margin-left: 800px;
-}
+
 
 .title-Item {
     border-bottom: solid 5px #525753;
@@ -119,8 +117,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 8px;
-    gap: 10px;
-
+    gap: 10px;  
     width: 271px;
     height: 64px;
 
@@ -129,4 +126,10 @@ body {
     border-radius: 8px;
     color: #FFFFFF;
     font-weight: bold;
+}
+.SubtoTal >div{
+    gap: 40px;
+}
+.TT{
+    gap: 50px;
 }
