@@ -18,10 +18,6 @@ body {
 }
 
 #Container {
-    position: relative;
-    width: 1440px;
-    height: auto;
-
     background: #F0F5F0;
 }
 
@@ -39,102 +35,18 @@ body {
     height: 40px;
 }
 
-.Cart-AccountIcons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 56px;
-    width: 104px;
-    height: 32px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.Navigation-Menu {
-    border-bottom: solid 1px black;
-}
-
-.Center {
-    width: 1440px;
-    height: auto;
-}
-
 .Box-Details {
-    gap: 20px;
     padding: 50px 120px 50px 120px;
 }
 
-.Procducts-Images {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 24px;
-
-    width: 560px;
-    height: 553px;
+.Product-Details .pb-4 >div{
+    padding-bottom: 24px;
+}
+.Delivery-Info >div{
+    padding-bottom: 20px;
 }
 
 
-.thumbnail {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.thumbnail img {
-    border-radius: 8px;
-    background: none;
-    width: 140px;
-}
-
-
-
-
-
-.Product-Details {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    width: 560px;
-    height: 553px;
-}
-
-.img-product {
-    width: 560px;
-    height: 421px;
-}
-
-.Product-Details>div {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.Delivery-Info {
-    display: flex;
-    flex-direction: column;
-}
-
-.Pincode {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.Pincode button {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    color: #3B823E;
-    border: none;
-}
 
 .BoxPinCode {
     width: 144px;
@@ -154,38 +66,12 @@ body {
     gap: 15px;
 }
 
-.Quantity {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 5px;
-    border: solid 2px black;
-    width: 70px;
-}
-
 .Quantity button {
     border: none;
 }
-
-.Frame78 {
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
+.btn-Yes:hover{
+   background-color: #a7a6a6;
 }
-
-.Frame78>div {
-    display: flex;
-    justify-content: space-around;
-    gap: 15px;
-}
-
-.btn-Yes {
-    border: 2px solid #343434;
-    border-radius: 4px;
-    width: 76px;
-    height: 36px;
-}
-
 .btn-Add {
     display: flex;
     flex-direction: row;
@@ -193,19 +79,22 @@ body {
     align-items: center;
     padding: 8px;
     gap: 10px;
-
+    border: none;
     width: 344px;
     height: 64px;
     background: #3B823E;
-    box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.13);
     border-radius: 8px;
     color: #F0F5F0;
     font-weight: bold;
 }
-
+.btn-check{
+    border: none;
+    color: #436E35;
+}
+.btn-check:hover{
+    background-color: #F0F5F0;
+}
 .BGround {
-    width: 1440px;
-    height: 564px;
     background-color: #01370C;
     background-image: url(../img/Background.png);
     color: #F0F5F0;
@@ -216,31 +105,12 @@ body {
 
 .Description {
     color: #343434;
-    width: 1200px;
-    height: 372px;
     background: #F0F5F0;
     border-radius: 16px;
     padding: 24px;
+    margin: 0px 100px;
 }
 
-.BGround>div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Product-Decription {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.Tab {
-    display: flex;
-    gap: 20px;
-    width: 1200px;
-    height: 67px;
-}
 
 .Tab>div {
     display: flex;
@@ -255,6 +125,16 @@ body {
     border-radius: 1px;
 }
 
+.row h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 2px;
+    background: rgba(52, 52, 52, 0.8);
+    bottom: 0;
+    left: calc(50% - 100px);
+  }
 .Description p {
     font-weight: 300;
     font-size: 20px;
@@ -263,58 +143,8 @@ body {
     color: rgba(52, 52, 52, 0.75);
 }
 
-.Section-Hot-Sale {
-    width: 1440px;
-    height: 640px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Section-Hot-Sale>div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 28px;
-    position: absolute;
-    width: 1200px;
-    height: 468px;
-}
-
-.list-product {
-    display: flex;
-    justify-content: space-around;
-    gap: 24px;
-}
-
-.product-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 282px;
-    height: 369.5px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 0px;
-    align-items: center;
-    background: #FFFFFF;
-    box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13);
-    border-radius: 16px;
-}
-
-.product-item del {
-    color: rgb(223, 30, 30);
-    font-size: 15px;
-}
-
-.product-item p {
-    text-align: left;
-    font-size: 20px;
-}
-
-.Name-Price {
-    padding-right: 30px;
+.card{
+    border-radius: 5px;
 }
 
 .btn-Buy button {
@@ -340,58 +170,49 @@ button:hover {
     background-color: #0b4b0e;
 }
 
-.Title-Section {
-    border-bottom: solid 5px;
+
+
+#footer .footer-top {
+    background: #436e35;
+    padding: 60px 0 30px 0;
 }
 
-.Footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 71px;
-    background: #436E35;
-    padding: 40px 80px 10px 80px;
+#footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px;
+    font-style: bold;
 }
 
-.Footer>img {
+#footer .footer-top ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top ul li {
+    padding: 10px 0;
     display: flex;
     align-items: center;
+    color: #fff;
 }
 
-.logo-link {
-    display: flex;
-    gap: 64px;
-    color: #F0F5F0;
+.facebook,
+.twitter {
+    padding-right: 8px;
 }
 
-.Copyright-social {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 50px;
-    text-align: right;
+#footer .footer-bot {
+    background: #01370c;
 }
 
-.Copyright-social :nth-child(2) {
-    display: flex;
-    gap: 20px;
+#footer .container span {
+    font-size: 16px;
+    padding: 12px;
 }
 
-.mini-footer {
-    display: flex;
-    width: 1440px;
-    height: 57px;
-    background: #01370C;
-    align-items: center;
-    justify-content: center;
-}
-
-.content-footer {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    color: rgba(255, 255, 255, 1);
+#footer .container-fluid {
+    margin: 0 -10px;
 }
