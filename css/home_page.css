@@ -28,7 +28,12 @@ body {
   color: black;
 }
 
+.navbar ul li {
+  list-style: none;
+}
+
 .main {
+  top: 120px;
   background: url(../img/Hero\ Banner.png) no-repeat;
   background-size: cover;
   height: 45vh;
@@ -41,10 +46,11 @@ body {
 }
 
 .row {
-  margin: 0 120px;
+  margin: 0 90px;
 }
 
-h3 {
+h3,
+h2 {
   font-size: 48px;
   font-family: "Unna";
 }
@@ -62,20 +68,15 @@ h3 {
   width: 318px;
 }
 
-hr {
-  width: 200px;
-  height: 0px;
-  border: 1px solid rgba(52, 52, 52, 0.8);
-  margin-left: 650px;
-}
-
-.hero .selling h3::after {
+.row h3::after {
+  content: "";
   position: absolute;
   display: block;
-  width: 80px;
-  height: 4px;
-  background: red;
-  margin: auto;
+  width: 200px;
+  height: 2px;
+  background: rgba(52, 52, 52, 0.8);
+  bottom: 0;
+  left: calc(50% - 100px);
 }
 
 .container-fluid {
