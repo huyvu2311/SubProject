@@ -125,7 +125,7 @@ body {
     border-radius: 1px;
 }
 
-.row h2::after {
+.Section-Hot-Sale .row h2::after {
     content: "";
     position: absolute;
     display: block;
